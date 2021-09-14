@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin:0;
+}
+
+
+.navibar{
+    display: flex;
+    padding: 25px;
+    justify-content: space-between;
+    align-items: center;
+    background-color:black;
+}
+
+.naviheading {
+    color: darkviolet;
+    font-size: 2 em;
+}
+
+.navibar a{
+    color:darkviolet;
+    font-size: 1.25em;
+}
+
+body{
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover ;
+}

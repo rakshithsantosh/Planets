@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin:0;
+}
+.navibar{
+    display: flex;
+    padding: 25px;
+    justify-content: space-between;
+    align-items: center;
+    background-color:black;
+}
+
+.naviheading {
+    color: darkviolet;
+    font-size: 2 em;
+}
+
+.navibar a{
+    color:darkviolet;
+    font-size: 1.25em;
+}
+
+body{
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+
+
+.t{
+    padding-top: 10%;
+}
+
+.r{
+    
+    width:50%;
+    height:100%;
+    float:right;
+    right:0;
+    
+}
+
+
+.l{
+    width:50%;
+    height: 100%;
+    float:left;
+    left:0;
+    
+}
+
+.last{
+    width: 100%;
+    padding-top: 10%;
+    display:flex;
+    flex-direction: row;
+}
+
+.mh{
+    
+    color:cyan;
+    font-size: 2em;
+}
+
+.r p{
+    color: cyan;
+    font-size: 1em;
+}
+
+.b{
+    display: block;
+    padding-top: 10%;
+    
+}
